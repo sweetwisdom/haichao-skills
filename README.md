@@ -110,7 +110,7 @@
 
 然后安装插件：
 ```
-/plugin install haichao-skills@haichao-skills
+/plugin install unity-of-knowledge-and-action@haichao-skills
 ```
 
 这会将指南安装为 Claude Code 插件，使其在你所有项目中可用。
