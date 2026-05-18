@@ -99,6 +99,13 @@
 - 保证后续可以理解与复现过程
 - 为未来维护者提供上下文，而不是谜题
 
+## 包含的 Skills
+
+| Skill | 描述 |
+|-------|------|
+| `unity-of-knowledge-and-action` | 知行合一编码准则，减少常见 LLM 编码错误 |
+| `ui-assistant` | 一句话产品想法 → 高保真前端 Demo（HTML + DaisyUI + Alpine.js + Chart.js） |
+
 ## 安装
 
 **选项 A：Claude Code 插件（推荐）**
@@ -108,14 +115,23 @@
 /plugin marketplace add sweetwisdom/haichao-skills
 ```
 
-然后安装插件：
+然后按需安装 skill：
 ```
 /plugin install unity-of-knowledge-and-action@haichao-skills
+/plugin install ui-assistant@haichao-skills
 ```
 
-这会将指南安装为 Claude Code 插件，使其在你所有项目中可用。
+这会将 skill 安装为 Claude Code 插件，使其在所有项目中可用。
 
-**选项 B：CLAUDE.md（按项目）**
+**选项 B：直接复制 SKILL.md**
+
+将对应 skill 文件夹复制到你项目的 `.claude/skills/` 目录下即可：
+```bash
+# 以 ui-assistant 为例
+cp -r skills/ui-assistant /path/to/your-project/.claude/skills/
+```
+
+**选项 C：CLAUDE.md（仅适用 unity-of-knowledge-and-action）**
 
 新项目：
 ```bash

@@ -7,5 +7,5 @@
   },
   "license": "MIT",
   "keywords": ["guidelines", "best-practices", "coding", "unity-of-knowledge-and-action", "王阳明"],
-  "skills": ["./skills/unity-of-knowledge-and-action"]
+  "skills": ["./skills/unity-of-knowledge-and-action", "./skills/ui-assistant"]
 }
